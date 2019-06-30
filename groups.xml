@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Loan Department">
+  <test name="Demo Loan">
+  <groups>
+  	<run>
+  		<include name="smokeTest"/>
+  	</run>
+  </groups>
+    <classes>
+      <class name="Test.demo2"/>
+      <class name="Test.demo1"/>
+      <class name="Test.demo3"/>
+      <class name="Test.demo4"/>
+             
+  </classes>
+  
+  </test>
+  
+</suite> <!-- Suite -->

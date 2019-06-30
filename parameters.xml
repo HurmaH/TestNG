@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Loan Department">
+  <test name="Demo Loan">
+  <parameter name="URL" value="qaclick.com"/>
+  <classes>
+  
+      <class name="Test.ParametersTrial"/>
+             
+  </classes>
+  
+  </test>
+  
+</suite> <!-- Suite -->

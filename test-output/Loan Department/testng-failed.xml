@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Loan Department]">
+  <listeners>
+    <listener class-name="Test.ListenersTrial"/>
+  </listeners>
+  <test thread-count="5" name="Demo Loan(failed)">
+    <classes>
+      <class name="Test.demo1">
+        <methods>
+          <include name="prerequisite"/>
+          <include name="beforeSuite"/>
+          <include name="befMethod"/>
+          <include name="demo2"/>
+        </methods>
+      </class> <!-- Test.demo1 -->
+    </classes>
+  </test> <!-- Demo Loan(failed) -->
+</suite> <!-- Failed suite [Loan Department] -->
